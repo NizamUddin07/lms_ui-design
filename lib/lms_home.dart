@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
                 color: Color(0xFF674AEF),
                 borderRadius: BorderRadius.only(bottomRight: Radius.circular(70))
               ),
+              child: Center(child: Image.asset("assets/images/books.png"))
             )
           ],
         ),
